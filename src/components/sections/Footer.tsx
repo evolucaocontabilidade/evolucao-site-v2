@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Logo2 from "../header/Logo2";
 import GitHubIcon from "../icons/Github";
 import InstagramIcon from "../icons/Instagram";
@@ -47,7 +48,7 @@ export function Footer() {
       <div className="lg:w-1/5 space-y- justify-start flex flex-col items-end pt-10">
         <a href="https://maps.app.goo.gl/e3NwKtdZE6ATn8219" target="_blank">
           <div>
-            <img
+            <Image
               src="maps2.png"
               alt=""
               className="lg:w-[200px] w-[200px] mt-6 lg:mt-0 rounded-lg shadow-lg border border-gray-200"

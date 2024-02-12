@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import WhatsAppIcon from "../icons/Whatsapp";
 import { GoogleMap, Marker, useJsApiLoader } from "@react-google-maps/api";
+import Image from "next/image";
 
 export function Inicio() {
   return (
@@ -40,7 +41,7 @@ export function Inicio() {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <img
+        <Image
           src="21.png"
           alt=""
           className="lg:w-[1200px] w-[400px] mt-6 lg:mt-0 rounded-lg shadow-lg border border-gray-200"

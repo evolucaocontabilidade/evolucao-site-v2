@@ -1,3 +1,4 @@
+import Image from "next/image";
 import GitHubIcon from "../icons/Github";
 import InstagramIcon from "../icons/Instagram";
 import LinkedinIcon from "../icons/Linkedin";
@@ -14,7 +15,7 @@ export function Sobre() {
           <div className="col-span-1 ">
             <div className="flex flex-col justify-center items-center">
               <div className="bg-[#aaa] rounded-[50%] w-[200px] h-[200px] overflow-hidden relative">
-                <img
+                <Image
                   src="avatar.png"
                   alt=""
                   className="absolute bottom-0 w-[100%]"

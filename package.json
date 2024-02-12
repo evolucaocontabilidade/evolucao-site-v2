@@ -1,5 +1,5 @@
 {
-  "homepage": "https://evolucaocontabilidade.github.io/evolucao-site",
+  "homepage": "https://evolucaocontabilidade.github.io/evolucao-ste-v2",
   "name": "evolucao-contabilidade",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d .next"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.19.2",
